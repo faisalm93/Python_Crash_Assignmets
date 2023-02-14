@@ -1,0 +1,4 @@
+def display_message():
+    print("In this chapter, I am learning about how to define a function, passing information, arguments and parameter to it.")
+
+display_message()
