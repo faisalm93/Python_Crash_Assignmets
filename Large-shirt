@@ -1,0 +1,13 @@
+
+def make_shirt(size="large", message="I love Python"):
+    print("I am a python developer and  "   + " " + message)
+
+# Make a large shirt with default message
+make_shirt()
+
+# Make a medium shirt with default message
+make_shirt(size="medium")
+
+# Make a shirt of any size with a different message
+make_shirt(size="small", message="Learning a Python programing is a must for Data scientist")
+
