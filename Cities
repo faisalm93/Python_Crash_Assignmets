@@ -1,0 +1,11 @@
+def describe_city(city, country="Nigeria"):
+    print(city + " is in " + country)
+
+# decribe_city Call the function with default country
+describe_city("Kano")
+
+# Call the function with non-default country
+describe_city("Accra", "Ghana",)
+
+# Call the function with default country again
+describe_city("Abuja")
