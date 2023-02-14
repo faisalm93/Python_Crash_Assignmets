@@ -1,0 +1,9 @@
+def make_shirt(size, message):
+    print("Hurray!! Your shirt size is " + size + " : " + message)
+
+# Below codes call the function using positional arguments
+make_shirt("large", "Shirt Size is LXL!")
+
+# Below code call the function using keyword arguments
+make_shirt(size="medium", message="Shirt Size is MXL!")
+
