@@ -1,0 +1,16 @@
+# define a list of short text messages
+messages = ['Hello', 'Welcome to Arewa Datascience fellowship', 'We are glad to have you onboard', 'Happy learning']
+
+# define the send_messages() function
+def send_messages(msg_list):
+    sent_messages = []
+    while msg_list:
+        current_msg = msg_list.pop(0)
+        print("Sending message: " + current_msg)
+        sent_messages.append(current_msg)
+    return sent_messages
+
+# call the send_messages() function and print the results
+sent_messages = send_messages(messages)
+print("Messages: " + str(messages))
+print("Sent messages: " + str(sent_messages))
