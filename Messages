@@ -1,0 +1,10 @@
+# define a list of short text messages
+messages = ['Hello', 'Welcome to Arewa Data science Fellowship cohort 2', 'We are glad to have you onboard', 'Happy Learning']
+
+# define the show_messages() function
+def show_messages(msg_list):
+    for message in msg_list:
+        print(message)
+
+# call the show_messages() function and pass it the list of messages
+show_messages(messages)
