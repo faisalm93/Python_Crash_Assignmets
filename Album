@@ -6,7 +6,7 @@ def make_album(artist_name, album_title, songs_numbers=None):
 album1 = make_album('Ali jita', 'Kano my city')
 album2 = make_album('BMeri', 'I love my wife')
 album3 = make_album('Sadi Sidi Sharifai', 'if Love is a crime ')
-album4 = make_album('Taylor Swift', '1989', 16)
+album4 = make_album('Umar Shareef', '19', )
 
 print(album1)
 print(album2)
