@@ -1,0 +1,12 @@
+def make_album(artist_name, album_title):
+    """Return a dictionary containing an artist's name and album title."""
+    album = {'artist': artist_name, 'title': album_title}
+    return album
+
+album1 = make_album('Ali jita', 'Kano my city')
+album2 = make_album('BMeri', 'I love my wife')
+album3 = make_album('Sadi Sidi Sharifai', 'if Love is a crime ')
+
+print(album1)
+print(album2)
+print(album3)
