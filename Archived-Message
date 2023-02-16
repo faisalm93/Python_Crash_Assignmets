@@ -1,0 +1,26 @@
+def send_messages(messages):
+    """Print each message and mark it as sent."""
+    sent_messages = []
+    while messages:
+        current_message = messages.pop(0)
+        print(f"Sending message: {current_message}")
+        sent_messages.append(current_message)
+    return sent_messages
+
+# Define the original list of messages
+messages = ["Hello", "Welcome to Arewa DataScience Fellowship", "We are glad to have you onboard", "Happy Learning"]
+
+# Create a copy of the original list using the slice operator
+messages_copy = messages[:]
+
+# Call the send_messages() function with the copy of the original list
+sent_messages = send_messages(messages_copy)
+
+# Print both the original and updated lists to confirm that the original list was not modified
+print("Original messages:")
+for message in messages:
+    print(message)
+
+print("Sent messages:")
+for message in sent_messages:
+    print(message)
