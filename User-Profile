@@ -1,0 +1,13 @@
+def buildmy_profile(first_name, last_name, **additional_info):
+    profile = {'first_name': first_name, 'last_name': last_name}
+    profile.update(additional_info)
+    return profile
+
+# This is my profile "Faisal Adam"
+Faisal_profile = buildmy_profile('Faisal', 'Adam',
+                             occupation='Data Science',
+                             interests='Learning new Skills, Reading, Traveling',
+                             favorite_food='Tuwo miyar Zogale')
+
+# Print the profile
+print(Faisal_profile)
