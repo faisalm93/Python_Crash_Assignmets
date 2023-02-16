@@ -1,0 +1,15 @@
+def make_car(manufacturer, model, **car_info):
+    car = {'manufacturer': manufacturer, 'model': model}
+    car.update(car_info)
+    return car
+
+# Example list of cars
+cars = [
+    make_car('subaru', 'outback', color='blue', tow_package=True),
+    make_car('Yar kurkura', 'Toyota', color='white', sunroof=True),
+    make_car('honda thank you daddy', 'civic', color='red', navigation=True)
+]
+
+# Print the list of cars
+for car in cars:
+    print(car)
