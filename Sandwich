@@ -1,0 +1,11 @@
+def howtomake_sandwich(*items):
+    """Can you print a summary of the sandwich that's being ordered?."""
+    print("For you to make a sandwich, you need the following items:")
+    for item in items:
+        print(f"- {item}")
+    print("Done!")
+
+# Call the make_sandwich() function with different numbers of arguments
+howtomake_sandwich("Filawa", "Sikari", "Mangyada")
+howtomake_sandwich("Naman Talo-Talo", "Salak ko Kabeji", "tumatir", "man butter")
+howtomake_sandwich("wake", "Gyada malkadaddiya")
